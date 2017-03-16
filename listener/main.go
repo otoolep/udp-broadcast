@@ -6,6 +6,7 @@ import (
 	"os"
 )
 
+// main starts the listener.
 func main() {
 	addr, err := net.ResolveUDPAddr("udp", "0.0.0.0:10001")
 	if err != nil {
