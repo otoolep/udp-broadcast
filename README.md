@@ -1,1 +1,1 @@
-A simple system that uses UDP broadcast.
+A simple test system that uses UDP broadcast.
