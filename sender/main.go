@@ -8,6 +8,7 @@ import (
 	"time"
 )
 
+// main starts the UDP client.
 func main() {
 	sa, err := net.ResolveUDPAddr("udp", "255.255.255.255:10001")
 	if err != nil {
